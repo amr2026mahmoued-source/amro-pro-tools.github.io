@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="AMRO PRO TOOLS & SHEETS - أسرع أداة لتصدير وطباعة مئات اللوحات على Revit بضغطة زر. The Fastest Export Tool for Revit & AutoCAD.">
+    <meta name="keywords" content="Revit, AutoCAD, BIM, AMRO PRO SHEETS, AMRO PRO TOOLS, Revit add-ins, MEP plugins, Batch Export, Revit Line Weights, طباعة ريفيت, إضافات ريفيت, اوتوكاد, تصدير لوحات ريفيت">
+    <meta name="author" content="Amr M Mostafa">
+    
+    <!-- Open Graph (For Social Media & WhatsApp Sharing) -->
+    <meta property="og:title" content="AMRO PRO TOOLS - Revit & AutoCAD Add-ins">
+    <meta property="og:description" content="وداعاً لضياع الوقت! قم بتصدير مئات اللوحات، دمج الصور آلياً، والطباعة في الريفيت بضغطة زر واحدة.">
+    <meta property="og:type" content="website">
+
+    <title>AMRO PRO TOOLS - Revit & AutoCAD Add-ins</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glow-btn { box-shadow: 0 0 15px rgba(59, 130, 246, 0.6); transition: all 0.3s ease; }
+        .glow-btn:hover { box-shadow: 0 0 25px rgba(59, 130, 246, 0.9); }
+        .glow-whatsapp { box-shadow: 0 0 15px rgba(34, 197, 94, 0.5); transition: all 0.3s ease; }
+        .glow-whatsapp:hover { box-shadow: 0 0 25px rgba(34, 197, 94, 0.8); }
+        .glass-card { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; }
+        
+        /* Language handling */
+        .en-text { display: none; }
+        html[dir="ltr"] .ar-text { display: none; }
+        html[dir="ltr"] .en-text { display: inline-block; }
+        html[dir="ltr"] .en-block { display: block; }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="glass-card sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+            AMRO PRO TOOLS
+        </div>
+        <button onclick="toggleLanguage()" class="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition">
+            <span class="ar-text">English</span>
+            <span class="en-text">عربي</span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+            <span class="ar-text">أسرع أداة لتصدير اللوحات على <span class="text-blue-500">Revit</span></span>
+            <span class="en-text">The Fastest Export Tool for <span class="text-blue-500">Revit</span></span>
+        </h1>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+            <span class="ar-text">وداعاً لضياع الوقت! قم بتصدير مئات اللوحات، دمج الصور آلياً، والطباعة بضغطة زر واحدة.</span>
+            <span class="en-text">Say goodbye to wasted time! Export hundreds of sheets, bind images automatically, and print with a single click.</span>
+        </p>
+        <a href="https://drive.google.com/file/d/1mviUDZryMAb9_2SK2NA6LGYbOuWnS6mT/view?usp=drive_link" target="_blank" class="glow-btn inline-block bg-blue-600 hover:bg-blue-500 text-white text-lg font-bold py-4 px-10 rounded-full">
+            <span class="ar-text">تحميل الإضافة الآن</span>
+            <span class="en-text">Download Add-in Now</span>
+        </a>
+    </section>
+
+    <!-- Video 1: How to Use -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="glass-card rounded-2xl p-6 md:p-10 mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center text-blue-400">
+                <span class="ar-text">1. طريقة الاستخدام الشاملة</span>
+                <span class="en-text">1. How to Use & Full Guide</span>
+            </h2>
+            <div class="aspect-w-16 aspect-h-9 mb-6">
+                <iframe class="w-full h-[300px] md:h-[600px] rounded-xl border border-gray-700 shadow-2xl" 
+                        src="https://www.youtube.com/embed/2w0Oqwu8lCU" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-gray-300 text-center text-lg">
+                <span class="ar-text">شرح مفصل لكيفية عمل Batch Export لملفات PDF و DWG وضبط إعدادات الطباعة المتقدمة.</span>
+                <span class="en-text">Detailed guide on how to Batch Export PDF & DWG files and configure advanced print settings.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Video 2: New Features -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="glass-card rounded-2xl p-6 md:p-10 mb-10">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center text-cyan-400">
+                <span class="ar-text">2. المميزات الجديدة وحل مشكلة الـ Line Weights</span>
+                <span class="en-text">2. New Features & Line Weights Fix</span>
+            </h2>
+            <div class="aspect-w-16 aspect-h-9 mb-6">
+                <iframe class="w-full h-[300px] md:h-[600px] rounded-xl border border-gray-700 shadow-2xl" 
+                        src="https://www.youtube.com/embed/gTRuR1Kp1QM" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-gray-300 text-center text-lg">
+                <span class="ar-text">اكتشف كيفية الطباعة عن طريق الأوتوكاد مباشرة من الريفيت للحفاظ على سماكة الخطوط (Line Weights) وعمل فصل (Split) للملفات.</span>
+                <span class="en-text">Discover how to print via AutoCAD directly from Revit to maintain Line Weights and split exported files easily.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Video 3: Benchmark -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="glass-card rounded-2xl p-6 md:p-10 mb-10 border-red-500/30">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center text-red-400">
+                <span class="ar-text">3. تحدي السرعة (Benchmark) 🚀</span>
+                <span class="en-text">3. Speed Test Benchmark 🚀</span>
+            </h2>
+            <div class="aspect-w-16 aspect-h-9 mb-6">
+                <iframe class="w-full h-[300px] md:h-[600px] rounded-xl border border-gray-700 shadow-2xl" 
+                        src="https://www.youtube.com/embed/kFE92A_h9Hk" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <p class="text-gray-300 text-center text-lg">
+                <span class="ar-text">مقارنة حقيقية للأداء بين أداة AMRO PRO SHEETS وإضافة DiRoots. شاهد بنفسك فارق السرعة في تصدير مئات اللوحات!</span>
+                <span class="en-text">A real performance comparison between AMRO PRO SHEETS and DiRoots. See the speed difference in exporting hundreds of sheets!</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Installation & Activation -->
+    <section class="max-w-4xl mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold mb-8 text-center text-white">
+            <span class="ar-text">طريقة التسطيب والتفعيل</span>
+            <span class="en-text">Installation & Activation</span>
+        </h2>
+        <div class="glass-card rounded-2xl p-8 border-t-4 border-green-500">
+            <ol class="list-decimal list-inside text-gray-300 space-y-4 text-lg mb-8">
+                <li>
+                    <span class="ar-text">قم بتحميل الإضافة وتسطيبها (Install).</span>
+                    <span class="en-text">Download and run the installer.</span>
+                </li>
+                <li>
+                    <span class="ar-text">افتح برنامج Revit واضغط على أيقونة AMRO PRO SHEETS.</span>
+                    <span class="en-text">Open Revit and click on the AMRO PRO SHEETS icon.</span>
+                </li>
+                <li>
+                    <span class="ar-text">انسخ كود الـ <strong>Machine ID</strong> الذي سيظهر لك.</span>
+                    <span class="en-text">Copy the <strong>Machine ID</strong> code that appears on your screen.</span>
+                </li>
+                <li>
+                    <span class="ar-text">أرسل الكود عبر واتساب للحصول على مفتاح التفعيل السنوي الخاص بك.</span>
+                    <span class="en-text">Send the code via WhatsApp to get your annual activation key.</span>
+                </li>
+            </ol>
+            
+            <div class="text-center mt-6">
+                <a href="https://wa.me/201015005013" target="_blank" class="glow-whatsapp inline-flex items-center justify-center bg-green-600 hover:bg-green-500 text-white text-lg font-bold py-4 px-10 rounded-full transition">
+                    <svg class="w-6 h-6 mr-2 ml-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    <span class="ar-text">إرسال الـ Machine ID للتفعيل</span>
+                    <span class="en-text">Send Machine ID for Activation</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compatibility & Helper Links -->
+    <section class="max-w-6xl mx-auto px-4 py-12 border-t border-gray-700">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Compatibility -->
+            <div class="glass-card rounded-2xl p-8">
+                <h3 class="text-2xl font-bold mb-4 text-blue-400">
+                    <span class="ar-text">التوافق والدعم</span>
+                    <span class="en-text">Compatibility & Support</span>
+                </h3>
+                <ul class="text-gray-300 space-y-2 text-lg">
+                    <li>✔️ Autodesk Revit (2018 - 2027)</li>
+                    <li>✔️ Autodesk AutoCAD (2018 - 2028)</li>
+                    <li>
+                        <span class="ar-text">✔️ دعم فني مستمر وتحديثات تلقائية</span>
+                        <span class="en-text">✔️ Continuous support & Auto-updates</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Helper Links -->
+            <div class="glass-card rounded-2xl p-8 flex flex-col justify-center items-center text-center">
+                <h3 class="text-2xl font-bold mb-4 text-yellow-400">
+                    <span class="ar-text">روابط مساعدة</span>
+                    <span class="en-text">Helper Links</span>
+                </h3>
+                <p class="text-gray-300 mb-6">
+                    <span class="ar-text">لحل مشاكل اللغة العربية في الأوتوكاد، قم بتحميل حزم الخطوط.</span>
+                    <span class="en-text">To fix Arabic text issues in AutoCAD, download the Fonts packages.</span>
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+                    <a href="https://www.mediafire.com/file/bvhdn9v22sy7whe/Fonts_1.rar/file" target="_blank" class="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg transition shadow-lg w-full sm:w-auto text-center">
+                        <span class="ar-text">تحميل فونتات الكاد (الجزء 1)</span>
+                        <span class="en-text">Download AutoCAD Fonts (Part 1)</span>
+                    </a>
+                    
+                    <a href="https://www.mediafire.com/file/5te5nnfldkldad8/Fonts_2.rar/file" target="_blank" class="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg transition shadow-lg w-full sm:w-auto text-center">
+                        <span class="ar-text">تحميل فونتات الكاد (الجزء 2)</span>
+                        <span class="en-text">Download AutoCAD Fonts (Part 2)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="max-w-4xl mx-auto px-4 py-12 mb-10 border-t border-gray-700">
+        <div class="glass-card rounded-2xl p-8 text-center">
+            <h2 class="text-3xl font-bold mb-8 text-white">
+                <span class="ar-text">تواصل معي</span>
+                <span class="en-text">Contact Me</span>
+            </h2>
+            <p class="text-gray-400 mb-8">
+                <span class="ar-text">لأي استفسارات، طلبات دعم فني، أو تطوير أدوات مخصصة، يمكنك التواصل معي عبر:</span>
+                <span class="en-text">For any inquiries, technical support, or custom tool development, contact me via:</span>
+            </p>
+            
+            <div class="flex flex-wrap justify-center gap-6">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/201015005013" target="_blank" class="group flex flex-col items-center p-4 bg-gray-800 rounded-xl hover:bg-gray-700 transition w-24">
+                    <svg class="w-10 h-10 text-green-500 mb-2 group-hover:scale-110 transition drop-shadow-[0_0_8px_rgba(34,197,94,0.6)]" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    <span class="text-xs text-gray-300">WhatsApp</span>
+                </a>
+                
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/amr-mahmoued-ba72853b7/" target="_blank" class="group flex flex-col items-center p-4 bg-gray-800 rounded-xl hover:bg-gray-700 transition w-24">
+                    <svg class="w-10 h-10 text-blue-500 mb-2 group-hover:scale-110 transition drop-shadow-[0_0_8px_rgba(59,130,246,0.6)]" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    <span class="text-xs text-gray-300">LinkedIn</span>
+                </a>
+                
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/amr.mahmoueed" target="_blank" class="group flex flex-col items-center p-4 bg-gray-800 rounded-xl hover:bg-gray-700 transition w-24">
+                    <svg class="w-10 h-10 text-blue-600 mb-2 group-hover:scale-110 transition drop-shadow-[0_0_8px_rgba(37,99,235,0.6)]" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    <span class="text-xs text-gray-300">Facebook</span>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:amr2026mahmoued@gmail.com" class="group flex flex-col items-center p-4 bg-gray-800 rounded-xl hover:bg-gray-700 transition w-24">
+                    <svg class="w-10 h-10 text-red-500 mb-2 group-hover:scale-110 transition drop-shadow-[0_0_8px_rgba(239,68,68,0.6)]" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <span class="text-xs text-gray-300">Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-gray-500 mt-10">
+        <p>&copy; 2026 AMRO PRO TOOLS. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Language Toggle -->
+    <script>
+        function toggleLanguage() {
+            const htmlTag = document.getElementById('htmlTag');
+            if (htmlTag.getAttribute('dir') === 'rtl') {
+                htmlTag.setAttribute('dir', 'ltr');
+                htmlTag.setAttribute('lang', 'en');
+            } else {
+                htmlTag.setAttribute('dir', 'rtl');
+                htmlTag.setAttribute('lang', 'ar');
+            }
+        }
+    </script>
+</body>
+</html>
